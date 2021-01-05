@@ -43,6 +43,9 @@ fruits[1] = "Pears";
 
 // Add the 'Kiwi' and 'Lemon' to the index 1 and 2 and shift the other element to next index (use splice to add element)
 
+fruits.splice(1,0,'Kiwi',"Lemon");
+console.log(fruits);
+
 // Remove (slice) all the element from index 5
 
 console.log(fruits.slice(5));
