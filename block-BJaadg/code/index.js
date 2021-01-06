@@ -20,7 +20,7 @@ quote.charAt(indexOfIs);
 3. Log the message saying `The index of first is in quote is 7`
 */
 
-console.log(`The index of first is in quote is 7`);
+console.log(`The index of first is in quote is ${quote.charAt(indexOfIs)}`);
 
 /*
 4. Log the message for first 6 characters of quote like this.
@@ -31,6 +31,10 @@ console.log(`The index of first is in quote is 7`);
   The character at index 4 is 'e'
   The character at index 5 is ' '
 */
+
+for(let i = 0;i < 6;i++){
+  console.log(`The character at index ${i} is ${quote[i]}`);
+}
 
 /*
 5. Using the variable from , to and quote variable dispaly this message
@@ -132,7 +136,7 @@ to = to.replace(`Stark`,'Lannister');
 20. Make the quote of length 30 and put ... at the end. (use slice)
 */
 
-// quote.slice(-quote.length+30,'...');
+let limit = quote.slice(0,30)+'...';
 
 /*
 21. Find out does quote, from, to starts with "A"
