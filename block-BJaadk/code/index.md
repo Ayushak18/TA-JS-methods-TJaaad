@@ -10,8 +10,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
-![](./img/main.png)
-
+![](./img/assingment-snap-1.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -20,6 +19,7 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
+![](./img/assingment-snap-2.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -28,6 +28,8 @@ function double(num) {
 }
 let doubleNum = numbers.forEach(double);
 ```
+
+![](./img/assingment-snap-3.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -36,6 +38,7 @@ function double(num) {
 }
 let doubleNumbers = numbers.map(double);
 ```
+![](./img/assingment-snap-4.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -44,6 +47,8 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+![](./img/assingment-snap-5.png)
+
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -52,6 +57,8 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+![](./img/assingment-snap-6.png)
+
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -60,6 +67,7 @@ function addTwo(num) {
 }
 let doubleNumbers = numbers.map(addTwo);
 ```
+![](./img/assingment-snap-6.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -68,6 +76,8 @@ function isOdd(num) {
 }
 let oddNumbers = numbers.filter(isOdd);
 ```
+![](./img/assingment-snap-7.png)
+
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -76,6 +86,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+![](./img/assingment-snap-8.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -84,6 +95,7 @@ function test(num) {
 }
 let filteredNumbers = numbers.filter(test);
 ```
+![](./img/assingment-snap-9.png)
 
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
@@ -93,6 +105,8 @@ function add(accumulator, currentValue) {
 let sum = numbers.reduce(add);
 ```
 
+![](./img/assingment-snap-10.png)
+
 ```js
 let numbers = [100, 200, 33, 45, 65, 76, 51];
 function add(accumulator, currentValue) {
@@ -100,3 +114,4 @@ function add(accumulator, currentValue) {
 }
 let sum = numbers.reduce(add);
 ```
+![](./img/assingment-snap-11.png)
