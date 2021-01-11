@@ -85,13 +85,13 @@ console.log(gradeTotal/peopleGrade.length);
 
 let malePersonsGrade = malePersons.map(element => element.grade);
 
-malePersonsGrade.reduce((acc,cv) => (acc+cv)/malePersonsGrade.length);
+malePersonsGrade.reduce((acc,cv) => (acc+cv))/malePersonsGrade.length;
 
 // Find the average grade of female
 
 let femalePersonsGrade = femalePersons.map(element => element.grade);
 
-femalePersonsGrade.reduce((acc,cv) => (acc+cv)/femalePersonsGrade.length);
+femalePersonsGrade.reduce((acc,cv) => (acc+cv))/femalePersonsGrade.length;
 
 // Find the highest grade
 
