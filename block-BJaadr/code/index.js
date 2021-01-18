@@ -13,17 +13,25 @@ function peopleByHouses() {
   // your code goes here
   let peopleHouseObj = {};
   got.houses.reduce((acc, cv) => {
-    console.log(acc[cv]);
-  }, {});
+    acc[cv.name] = cv.people.length;
+    return acc;
+  }, peopleHouseObj);
   return peopleHouseObj;
 }
 
 function everyone() {
   // your code goes here
+  return got.houses.reduce((acc,cv) => {
+    acc = acc.concat(cv.people.map(element => element.name));
+    return acc;
+  },[]);
 }
 
 function nameWithS() {
   // your code goes here
+  return got.houses.reduce((acc,cv) => {
+    return acc;
+  },[])
 }
 
 function nameWithA() {
